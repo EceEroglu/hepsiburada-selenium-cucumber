@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber Report</td>
+        <td>1</td>
+      <td>28 Jul 2020, 21:00</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">Hooks.afterScenario(Scenario)</td>
+              <td>2</td>
+              <td class="duration" data-value="3451450">0.003</td>
+              <td class="duration" data-value="3451450">0.004</td>
+              <td class="duration" data-value="6902900">0.006</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Hooks.afterScenarioFinish()</td>
+              <td>2</td>
+              <td class="duration" data-value="168200">0.000</td>
+              <td class="duration" data-value="168200">0.000</td>
+              <td class="duration" data-value="336400">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Hooks.beforeScenarioStart()</td>
+              <td>2</td>
+              <td class="duration" data-value="544650">0.000</td>
+              <td class="duration" data-value="544650">0.000</td>
+              <td class="duration" data-value="1089300">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Hooks.initializeTest()</td>
+              <td>2</td>
+              <td class="duration" data-value="20233717250">20.233</td>
+              <td class="duration" data-value="20233717250">20.461</td>
+              <td class="duration" data-value="40467434500">40.467</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.and_i_add_product_to_cart()</td>
+              <td>2</td>
+              <td class="duration" data-value="377300">0.000</td>
+              <td class="duration" data-value="377300">0.000</td>
+              <td class="duration" data-value="754600">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.and_i_click_on_login_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="389050">0.000</td>
+              <td class="duration" data-value="389050">0.000</td>
+              <td class="duration" data-value="778100">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.and_i_click_on_the_catproduct()</td>
+              <td>1</td>
+              <td class="duration" data-value="450900">0.000</td>
+              <td class="duration" data-value="450900">0.000</td>
+              <td class="duration" data-value="450900">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.and_i_click_on_the_vacuumcleanerproduct()</td>
+              <td>1</td>
+              <td class="duration" data-value="371000">0.000</td>
+              <td class="duration" data-value="371000">0.000</td>
+              <td class="duration" data-value="371000">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.and_i_enter_email()</td>
+              <td>2</td>
+              <td class="duration" data-value="739550">0.000</td>
+              <td class="duration" data-value="739550">0.000</td>
+              <td class="duration" data-value="1479100">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.and_i_enter_password()</td>
+              <td>2</td>
+              <td class="duration" data-value="551350">0.000</td>
+              <td class="duration" data-value="551350">0.000</td>
+              <td class="duration" data-value="1102700">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.and_i_go_to_cart()</td>
+              <td>2</td>
+              <td class="duration" data-value="482900">0.000</td>
+              <td class="duration" data-value="482900">0.000</td>
+              <td class="duration" data-value="965800">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.given_i_am_on_mainpage()</td>
+              <td>2</td>
+              <td class="duration" data-value="24535700">0.024</td>
+              <td class="duration" data-value="24535700">0.048</td>
+              <td class="duration" data-value="49071400">0.049</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.then_i_logged_in()</td>
+              <td>2</td>
+              <td class="duration" data-value="802550">0.000</td>
+              <td class="duration" data-value="802550">0.001</td>
+              <td class="duration" data-value="1605100">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.then_i_verify_cargo_free_option_price_for_catproduct(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="575500">0.000</td>
+              <td class="duration" data-value="575500">0.000</td>
+              <td class="duration" data-value="575500">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.then_i_verify_cargo_is_free_for_vacuumcleanerproduct()</td>
+              <td>1</td>
+              <td class="duration" data-value="489600">0.000</td>
+              <td class="duration" data-value="489600">0.000</td>
+              <td class="duration" data-value="489600">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.then_i_verify_cargo_is_not_free_for_catproduct()</td>
+              <td>1</td>
+              <td class="duration" data-value="433300">0.000</td>
+              <td class="duration" data-value="433300">0.000</td>
+              <td class="duration" data-value="433300">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.then_i_verify_catproduct_is_on_the_cart()</td>
+              <td>1</td>
+              <td class="duration" data-value="431600">0.000</td>
+              <td class="duration" data-value="431600">0.000</td>
+              <td class="duration" data-value="431600">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.then_i_verify_vacuumcleanerproduct_is_on_the_cart()</td>
+              <td>1</td>
+              <td class="duration" data-value="359700">0.000</td>
+              <td class="duration" data-value="359700">0.000</td>
+              <td class="duration" data-value="359700">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.when_i_click_on_login()</td>
+              <td>2</td>
+              <td class="duration" data-value="709200">0.000</td>
+              <td class="duration" data-value="709200">0.001</td>
+              <td class="duration" data-value="1418400">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.when_i_search_catproduct()</td>
+              <td>1</td>
+              <td class="duration" data-value="418400">0.000</td>
+              <td class="duration" data-value="418400">0.000</td>
+              <td class="duration" data-value="418400">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.when_i_search_vacuumcleanerproduct()</td>
+              <td>1</td>
+              <td class="duration" data-value="373800">0.000</td>
+              <td class="duration" data-value="373800">0.000</td>
+              <td class="duration" data-value="373800">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>21</td>
+            <td>33</td>
+            <td class="duration">1.228</td>
+            <td class="duration">40.467</td>
+            <td class="duration">40.536</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
