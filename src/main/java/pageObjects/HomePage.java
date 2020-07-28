@@ -33,27 +33,24 @@ public class HomePage implements BaseTest {
 
         Log.INFO("Hover on SignIn Button");
         browser.hoverOverElement(XPATH,signInIconPath);
-        Thread.sleep(7000);
         Log.INFO("Click Login Button");
         browser.click(XPATH, loginButtonPath);
-        Thread.sleep(7000);
+
     }
 
     public void accountIsVisible() throws InterruptedException {
 
-        Thread.sleep(5000);
         Log.INFO("Check if account is displayed");
         browser.isElementDisplayed(XPATH,accountPath);
-        Thread.sleep(5000);
 
     }
 
     public void searchCatProduct() throws InterruptedException {
 
-        Thread.sleep(5000);
+
         Log.INFO("Search any cat product");
         browser.enterTextBySendKeys(XPATH,"kedi", searchBarPath);
-        Thread.sleep(5000);
+
 
     }
 

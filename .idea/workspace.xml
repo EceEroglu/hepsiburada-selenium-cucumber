@@ -21,14 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bf59820a-994a-477c-bd47-1e7b24c24dfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factory/WebDriverFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Home.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Steps.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Steps.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/methods/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methods/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

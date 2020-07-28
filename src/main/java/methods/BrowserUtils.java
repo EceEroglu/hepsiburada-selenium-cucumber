@@ -1,5 +1,6 @@
 package methods;
 
+import environment.BaseTest;
 import environment.DriverManager;
 import environment.DriverManagerFactory;
 import io.cucumber.core.api.Scenario;
