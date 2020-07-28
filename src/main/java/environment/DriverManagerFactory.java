@@ -1,5 +1,7 @@
 package environment;
 
+import methods.InitSystemProperties;
+
 public class DriverManagerFactory {
 
     static WebDriverSetup chromeSetup = new WebDriverSetup();

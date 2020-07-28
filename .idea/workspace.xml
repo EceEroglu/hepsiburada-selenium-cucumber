@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf59820a-994a-477c-bd47-1e7b24c24dfe" name="Default Changelist" comment="" />
+    <list default="true" id="bf59820a-994a-477c-bd47-1e7b24c24dfe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/environment/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/environment/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/environment/DriverManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/environment/DriverManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/environment/WebDriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/environment/WebDriverSetup.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,10 +111,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595959397230" />
-    <state x="683" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595959647611">
+    <state x="683" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595960182546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="683" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595959647611" />
+    <state x="683" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595960182546" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1595959505038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
