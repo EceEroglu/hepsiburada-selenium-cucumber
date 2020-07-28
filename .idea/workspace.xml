@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf59820a-994a-477c-bd47-1e7b24c24dfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/hepsiburada-selenium-cucumber-v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hepsiburada-selenium-cucumber-v2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf59820a-994a-477c-bd47-1e7b24c24dfe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
