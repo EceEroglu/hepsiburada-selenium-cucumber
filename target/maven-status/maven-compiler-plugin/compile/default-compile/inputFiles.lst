@@ -1,10 +1,12 @@
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\environment\DriverManager.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\methods\BrowserUtils.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\methods\PropertiesManagementMethods.java
+C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\pageObjects\CartPage.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\logger\Log.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\pageObjects\HomePage.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\environment\DriverManagerFactory.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\methods\SelectorType.java
+C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\pageObjects\SearchPage.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\environment\WebDriverSetup.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\environment\FirefoxDriverManager.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\environment\DriverType.java
@@ -15,3 +17,4 @@ C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\metho
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\methods\TestCaseFailed.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\environment\BrowserFactory.java
 C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\environment\ChromeDriverManager.java
+C:\Users\eceer\IdeaProjects\hepsiburada-selenium-cucumber-v2\src\main\java\pageObjects\ProductPage.java

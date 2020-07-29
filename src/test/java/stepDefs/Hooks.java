@@ -12,9 +12,10 @@ public class Hooks implements BaseTest {
 
 
     @Before(order=0)
-    public void beforeScenario(Scenario scenario) throws IOException {
+    public void beforeScenario(Scenario scenario) throws IOException, InterruptedException {
 
         Log.INFO("Scenario: " + scenario.getName() + " started");
+
     }
 
 

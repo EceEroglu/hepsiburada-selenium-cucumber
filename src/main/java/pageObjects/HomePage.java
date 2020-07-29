@@ -34,6 +34,7 @@ public class HomePage implements BaseTest {
         Log.INFO("Hover on SignIn Button");
         browser.hoverOverElement(XPATH,signInIconPath);
         Log.INFO("Click Login Button");
+        browser.waitForElementToClick(XPATH,loginButtonPath,"5000");
         browser.click(XPATH, loginButtonPath);
 
     }
@@ -47,10 +48,19 @@ public class HomePage implements BaseTest {
 
     public void searchCatProduct() throws InterruptedException {
 
-
         Log.INFO("Search any cat product");
-        browser.enterTextBySendKeys(XPATH,"kedi", searchBarPath);
+        browser.enterTextBySendKeys(XPATH,"kedi kumu", searchBarPath);
+        browser.waitForElementToClick(XPATH,makeSearchIconPath,"5000");
+        browser.click(XPATH,makeSearchIconPath);
 
+    }
+
+    public void searchVacuumCleanerProduct() throws InterruptedException {
+
+        Log.INFO("Search any vacuum cleaner product");
+        browser.enterTextBySendKeys(XPATH,"süpürge", searchBarPath);
+        browser.waitForElementToClick(XPATH,makeSearchIconPath,"5000");
+        browser.click(XPATH,makeSearchIconPath);
 
     }
 

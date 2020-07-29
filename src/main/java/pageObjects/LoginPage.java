@@ -36,6 +36,7 @@ public class LoginPage implements BaseTest {
     public void clickLogin() {
 
         Log.INFO("Click Login");
+        browser.waitForElementToClick(SelectorType.XPATH,Btn_Login,"5000");
         browser.click(SelectorType.XPATH,Btn_Login);
 
     }
